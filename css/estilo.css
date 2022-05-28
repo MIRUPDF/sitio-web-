@@ -1,0 +1,193 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #636e72;
+}
+
+#main{
+	width: 940px;
+	height: 600px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../img/spidermanfondo.jpg);
+	background-size: 110%;
+	background-position: 20% 20%;
+
+}
+
+#header{
+	width: 940px;
+	height: 62px;
+	background-color:#161B21;
+	opacity: 100%;
+}
+
+
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:100px;
+    padding:5px 10px;
+    background-color:#b33939;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;	
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: #F2F2F2;
+  font-size: 3.5rem;
+  margin-left: 85px;
+  margin-top: 55px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+	
+}
+h2{
+  color: #F2F2F2;
+  font-size: 3rem;
+  margin-bottom:160;
+  margin-left: 85px;
+  margin-top: 8px;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+p{
+	color: white;
+	line-height: 1.4rem;
+	font-size: 0.9rem;
+	margin-left: 85px;
+    margin-top: 30px;
+	letter-spacing: 1px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* selector de clase*/
+
+footer{
+	width: 940px;
+	height: 50px;
+	margin-top: 150px;
+	background-color:#161B21;
+	clear: both;
+	bottom: auto;
+	text-align: center;
+	padding-right: 23px;
+	padding-left: 23px;
+	
+	
+}
+footer p{
+	padding-top: 15px;
+	font-size: 1em;
+	width: 300px;
+	margin: auto;
+	
+	
+	
+}
+.img{
+	margin-top: 15px;
+	width: 150px;
+	height: 20px;
+	float: left;
+	
+}
+
+.uces {
+	height: 30px;
+	width: 49px;
+	float: right;
+	margin-top: 10px;
+
+	
+}
+.logo{
+	margin-left: 30px;
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	float: left;	
+}
+
+.escenauno{
+	width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+.escenados{
+	width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+.escenatres{
+    width: 300px;
+	height: 150px;
+	margin-left: 15px;
+}
+
+#escenas{
+    width: 300px;
+	height: 650px;
+	margin-left: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+#section {
+	width: 640px;
+}
+
+#article{
+	width: 940px;
+	height: 350px;
+	display: flex;
+	flex-direction: row-reverse;
+	}
+
+
+
+/* small (mobiles, 576px amd up) */
+@media(min-widht:  576px) and (max-width: 767px){
+	
+}
+
+
+
+
+
+
+
+
+

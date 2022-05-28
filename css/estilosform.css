@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+h2{
+  color: #D93730;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-family: "myriad pro", regular; 
+}
+
+form {
+  width: 450px;
+  height: 410px;
+  margin-top: 10px;
+  margin-left: 50px;
+  background-color: #243A4E;
+  padding: 10px;
+  color: white;
+  text-align: left;
+
+}
+
+article{
+  text-align: center;
+  background-image: url(../img/spidermancielo.jpeg);  
+  background-size: 1050px;
+  height: 500px;
+
+}
+
+main{
+  width: 940px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  }
+
+
+header{
+  width: 940px;
+  height: 62px;
+  background-color:#161B21;
+  opacity: 100%;
+}
+
+
+
+/* selector de etiqueta */
+
+ li{
+    display: block;
+    width:100px;
+    padding:5px 10px;
+    background-color:#b33939;
+    border:none;
+    text-align:center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    }
+
+ li a{
+    text-decoration:none;
+    color: white;
+    text-align: right;  
+    font-family: "myriad pro", regular; 
+    opacity: 100%;
+
+ }
+
+    li:hover{
+    background-color:red;
+    color:white;
+    }
+
+h1{
+  color: whitesmoke;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 50px;
+  letter-spacing: 2px;
+  font-family:"myriad pro", regular;
+  
+}
+
+p{
+  color: white;
+  line-height: 1.4rem;
+  font-size: 0.9rem;
+  margin-left: 85px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* selector de clase*/
+
+footer{
+  width: 940px;
+  height: 50px;
+  background-color:#161B21;
+  clear: both;
+  bottom: auto;
+  text-align: center;
+  padding-right: 23px;
+  padding-left: 23px;
+  
+  
+}
+footer p{
+  padding-top: 15px;
+  font-size: 1em;
+  width: 300px;
+  margin: auto;
+
+  
+}
+.img{
+  margin-top: 15px;
+  width: 150px;
+  height: 20px;
+  float: left;
+  
+}
+
+.uces {
+  height: 30px;
+  width: 49px;
+  float: right;
+  margin-top: 10px;
+
+  
+}
+.logo{
+  margin-left: 30px;
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  float: left;  
+}
+
